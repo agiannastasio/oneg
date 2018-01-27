@@ -19,7 +19,6 @@ npm run compile
 Start
 ---
 
-Run:
 ```
 npm start
 ```
