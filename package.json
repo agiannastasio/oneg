@@ -1,5 +1,16 @@
 {
-  "author": "agustin@x-team.com",
+  "name": "oneg",
+  "version": "1.0.0",
+  "description": "Cabango ---",
+  "main": "index.js",
+  "scripts": {
+    "compile": "webpack",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
@@ -10,15 +21,5 @@
     "react-dom": "^16.2.0",
     "webpack": "^3.10.0",
     "webpack-dev-middleware": "^2.0.4"
-  },
-  "description": "oneg",
-  "keywords": [],
-  "license": "ISC",
-  "main": "index.js",
-  "name": "oneg",
-  "scripts": {
-    "compile": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "version": "1.0.0"
+  }
 }
