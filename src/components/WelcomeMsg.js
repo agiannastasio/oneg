@@ -1,9 +1,10 @@
-import React from 'react';
+import React from 'react'
 
-const WelcomeMsg = (props) => {
-  return (
-     <p>Welcome, {props.username}!</p>
-  );
-}
+// Functional component
+const WelcomeMsg = ({username}) => (
+	<div>
+		Hi {`${username}`}
+	</div>
+);
 
-export default WelcomeMsg;
+export default WelcomeMsg
